@@ -1,0 +1,16 @@
+baseURL = 'https://faster319.github.io/'
+languageCode = 'en-us'
+title = 'Blog-A-Taha'
+theme = 'hugo-paper'
+
+[params]
+    author = 'Taha Mohyuddin'
+    description = 'Meee'
+    color = 'dark'
+
+[menu]
+    [[menu.main]]
+        identifier = 'blog'
+        name = 'Blog'
+        url = '/posts/'
+        weight = 1
